@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Relatório - Flexbox Games</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f4f4f4;
+      color: #333;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h1, h2 {
+      color: #2c3e50;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      max-width: 800px;
+      margin: 10px auto 30px;
+      border: 3px solid #bbb;
+      border-radius: 10px;
+    }
+
+    ul {
+      background: #e0e0e0;
+      padding: 15px 25px;
+      border-radius: 10px;
+      line-height: 1.6;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Relatório de Experiência com Flexbox</h1>
+
+  <section>
+    <h2> Nome: Jhonatan Diogo Rodrigues Nunes</h2>
+  </section>
+
+  <section>
+    <h2> Jogos Escolhidos</h2>
+    <h3>1. Flexbox Adventure</h3>
+    <p><strong>Link:</strong> <a href="https://codingfantasy.com/games/flexboxadventure/play" target="_blank">Acessar jogo</a></p>
+    <p>Escolhi este jogo por ser um RPG divertido que ensina Flexbox de forma prática, com missões e desafios visuais.</p>
+
+    <h3>2. Flexbox Froggy</h3>
+    <p><strong>Link:</strong> <a href="https://flexboxfroggy.com/" target="_blank">Acessar jogo</a></p>
+    <p>Escolhi este jogo porque ele ensina Flexbox de forma interativa e progressiva, com visual simples e objetivo.</p>
+  </section>
+
+  <section>
+    <h2> Registro de Níveis Desafiadores</h2>
+
+    <h3>Flexbox Adventure</h3>
+    
+    <p><strong>Nível 4:</strong></p>
+    <img src="/images/imagem 3.png" alt="Nível 4 - Flexbox Adventure">
+    <p>Esse nível me desafiou pois exigiu o uso do <code>justify-content: space-around</code> e atenção à posição dos heróis.</p>
+
+    <p><strong>Nível 5:</strong></p>
+    <img src="/images/imagem 2.png" alt="Nível 5 - Flexbox Adventure">
+    <p>Foi difícil alinhar os heróis corretamente com <code>justify-content: space-evenly</code>, e controlar a perda de vida.</p>
+
+    <p><strong>Nível 6:</strong></p>
+    <img src="/images/imagem 1.png" alt="Nível 6 - Flexbox Adventure">
+    <p>Esse nível envolveu o <code>align-items</code>, o que exigiu entender o eixo transversal do Flexbox, algo mais avançado.</p>
+
+    <h3>Flexbox Froggy</h3>
+
+    <p><strong>Nível 2:</strong></p>
+    <img src="/images/jogo 2, imagem 1.png" alt="Nível 2 - Flexbox Froggy">
+    <p>Foi difícil centralizar os sapos corretamente usando <code>justify-content: center</code>, exigiu tentativa e erro.</p>
+
+    <p><strong>Nível 3:</strong></p>
+    <img src="/images/imagem 2, do jogo 2.png" alt="Nível 3 - Flexbox Froggy">
+    <p>Esse nível introduziu <code>space-around</code>, o que me confundiu um pouco por causa do espaçamento nos cantos.</p>
+
+    <p><strong>Nível 4:</strong></p>
+    <img src="/images/jogo 2 ,imagem 3.png" alt="Nível 4 - Flexbox Froggy">
+    <p>Usei <code>space-between</code>, que distribui o espaço apenas entre os elementos, o que foi mais desafiador de entender.</p>
+  </section>
+
+  <section>
+    <h2>Reflexão e Aplicação Prática</h2>
+
+    <h3>Propriedades CSS utilizadas:</h3>
+    <ul>
+      <li><strong>display: flex;</strong> — transforma um container em flexível</li>
+      <li><strong>justify-content</strong> — alinha itens no eixo principal (horizontal)</li>
+      <li><strong>align-items</strong> — alinha itens no eixo transversal (vertical)</li>
+      <li><strong>flex-direction</strong> — define a direção dos itens</li>
+      <li><strong>space-around / space-between / center</strong> — definem diferentes tipos de espaçamento entre os itens</li>
+    </ul>
+
+    <h3>Aplicação prática com Flexbox:</h3>
+    <p>Se eu fosse fazer um site com <strong>cards responsivos</strong>, usaria Flexbox para alinhar os cards lado a lado. Com <code>display: flex</code> e <code>flex-wrap: wrap</code>, os cards se adaptariam ao tamanho da tela. Usaria <code>justify-content: space-evenly</code> para distribuir os cards igualmente e <code>align-items: center</code> para alinhar verticalmente. Isso deixaria o layout limpo e adaptável para celular ou computador.</p>
+  </section>
+
+</body>
+</html>
